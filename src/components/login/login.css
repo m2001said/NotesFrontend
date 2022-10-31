@@ -1,0 +1,73 @@
+.login {
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--color-white);
+  margin-top: 1.3rem;
+}
+
+.login form {
+  margin: 0 auto;
+  max-width: 50rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-gradient-two);
+  border-radius: 1rem;
+  padding: 1rem 0;
+}
+
+.login label {
+  text-transform: capitalize;
+  color: var(--color-gradient-two);
+  font-size: 1.2rem;
+}
+
+.login input {
+  width: 100%;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  border: none;
+  font-size: 1.2rem;
+  background-color: var(--color-bg-dark);
+  color: var(--color-white);
+}
+
+.login button[type="button"],
+.login button[type="submit"] {
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: 0.3s all ease;
+  background: none;
+}
+
+.login button[type="button"] {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+.login button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1.6rem;
+  background: var(--color-gradient-two);
+}
+
+.login button[type="submit"]:hover {
+  color: var(--color-gradient-two);
+  background: var(--color-gray);
+}
+
+.login button[type="button"]:hover {
+  color: var(--color-gradient-two);
+  letter-spacing: 0.3px;
+}
+
+.login p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login p:hover {
+  color: var(--color-gradient-two);
+}

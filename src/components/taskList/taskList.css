@@ -1,0 +1,50 @@
+.tasks-add-button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  border: 2px solid var(--color-gradient-two);
+  background: none;
+  color: var(--color-gradient-two);
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.tasks-add-button:hover {
+  color: var(--color-white);
+  background: var(--color-gradient-two);
+}
+
+.tasks-addNewForm {
+  display: flex;
+  gap: 1rem;
+}
+.tasks-addNewForm input {
+  /* padding: 0.5rem; */
+  width: 100%;
+  color: var(--color-white);
+  padding: 1rem;
+  background-color: var(--color-bg-dark);
+  border-radius: 0;
+  font-size: 1.2rem;
+}
+.tasks button[type="submit"] {
+  background-color: var(--color-gray);
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  color: var(--color-bg);
+  transition: 0.3s all ease;
+}
+.tasks button[type="submit"]:hover {
+  background-color: var(--color-gradient-one);
+  color: var(--color-gray);
+}
+
+.taskList_table {
+  width: 100%;
+  margin-top: 2rem;
+}

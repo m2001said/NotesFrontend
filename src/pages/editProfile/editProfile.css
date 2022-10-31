@@ -1,0 +1,41 @@
+.edit-backBtn {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--color-gradient-two);
+  border: 1px solid var(--color-gradient-two);
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  transition: 0.3s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-backBtn:hover {
+  background: var(--color-gradient-two);
+  color: var(--color-white);
+}
+.edit-backBtn-icon {
+  font-size: 2rem;
+}
+
+.edit h2 {
+  margin-bottom: 2rem;
+}
+.edit-form input {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border: ntwo;
+  color: var(--color-white);
+  background-color: var(--color-bg-dark);
+}
+.edit-form button[type="submit"] {
+  background: var(--gradient);
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  color: var(--color-white);
+}

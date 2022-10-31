@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid var(--color-gray);
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+h3 {
+  text-transform: uppercase;
+}
+.userInfo-icon {
+  width: 20px;
+  height: 100%;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: var(--color-gray);
+  color: var(--color-bg);
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+.buttons-logout,
+.buttons-editBtn {
+  background: var(--gradient);
+  padding: 0.5rem 1.3rem;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 1rem;
+}
+.buttons-editBtn:hover,
+.buttons-logout:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 550px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .userInfo {
+    flex-direction: column;
+  }
+  .buttons-logout,
+  .buttons-editBtn {
+    padding: 0.4rem;
+  }
+}
