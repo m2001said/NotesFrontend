@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       "/api": {
         // target: "http://localhost:8000",
-        target: "https://notesbackend-59jh.onrender.com/",
+        target: "https://notesbackend-59jh.onrender.com",
       },
     },
   },
